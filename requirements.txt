@@ -2,6 +2,7 @@
 langchain>=0.2.12
 langchain-community>=0.2.11
 langchain-text-splitters>=0.2.2
+langchain-huggingface>=0.3.1
 
 # LLM providers
 langchain-groq>=0.1.4
@@ -10,6 +11,9 @@ langchain-google-genai>=2.0.1
 # Embeddings
 sentence-transformers>=2.2.2
 transformers>=4.30.0
+huggingface-hub>=1.24.0
+tokenizers>=0.13.3
+
 
 # Vector DBs
 chromadb>=0.5.5

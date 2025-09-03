@@ -59,7 +59,7 @@ RAG_Chatbot_Project/
  ├─ data/
  │   ├─ project_1_publication.json
  │   └─ raw/                # put source PDFs, txt, md, json
- ├─ database/             # persisted Chroma or FAISS db
+ ├─ VectorStore/             # persisted Chroma or FAISS db
  ├─ assets/                 # logos, images
  ├─ src/
  │   ├─ __init__.py
