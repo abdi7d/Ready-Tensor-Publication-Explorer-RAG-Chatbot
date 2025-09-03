@@ -1,0 +1,22 @@
+# Core
+langchain>=0.2.12
+langchain-community>=0.2.11
+langchain-text-splitters>=0.2.2
+
+# LLM providers
+langchain-groq>=0.1.4
+langchain-google-genai>=2.0.1
+
+# Embeddings
+sentence-transformers>=2.2.2
+transformers>=4.30.0
+
+# Vector DBs
+chromadb>=0.5.5
+faiss-cpu>=1.8.0
+
+# UI, env, typing
+gradio>=4.10
+python-dotenv>=1.0
+pydantic>=2.7
+pytest>=7.4
