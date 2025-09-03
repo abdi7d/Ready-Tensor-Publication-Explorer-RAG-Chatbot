@@ -53,14 +53,12 @@ Key aspects of the system include:
 [Watch Demo Video](#)  <!-- replace # with link later -->
 
 ---
-
 ### Repository Structure
 ```
 RAG_Chatbot_Project/
  ├─ data/
  │   ├─ project_1_publication.json
- │   ├─ raw/                # put source PDFs, txt, md, json
- │   └─ processed/          # normalized text, optional
+ │   └─ raw/                # put source PDFs, txt, md, json
  ├─ database/             # persisted Chroma or FAISS db
  ├─ assets/                 # logos, images
  ├─ src/
@@ -80,11 +78,11 @@ RAG_Chatbot_Project/
  ├─ ingest.py
  ├─ app.py                  # thin launcher for Gradio UI
  └─ tests/                  # add later (pytest)
- ├─ .gitignore              # 
+ ├─ .gitignore              
  ├─ .env_example
  ├─ README.md
  ├─ LICENSE
- ├─ requirements.txt        # dependencies
+ └─ requirements.txt        # dependencies
 ```
 ---
 ### 🚀 Getting Started
@@ -98,6 +96,13 @@ Before you begin, make sure you have the following:
 * 🔑 Google API Key (optional)
 
 #### 🛠️Setup and Installation Guide
+**Step 0: Clone the Repository** 
+
+```bash
+git clone https://github.com/AbdiD21/Ready-Tensor-Publication-Explorer-RAG-Chatbot.git
+cd Ready-Tensor-Publication-Explorer-RAG-Chatbot
+```
+
 **Step 1: Create and Activate a Virtual Environment**
 
 Open your command line interface (Command Prompt on Windows or Terminal on macOS/Linux), navigate to the root directory and run the following commands:
