@@ -1,6 +1,11 @@
 ## <font color="chocolate">Ready-Tensor-Publication-Explorer-- RAG Chatbot </font>
 
 
+## 📸 ⛶ Screenshot
+**Chatbot demo answering questions**
+
+![Chatbot demo answering questions](image.png)
+    **Chatbot demo answering questions**
 
 
 ### ⚙️ Configuration
@@ -54,7 +59,7 @@ const a = 1;
 
 
 ## Reference
-https://app.readytensor.ai/publications/create/ywfeDHNiFx7n/documentation
+I will copy my publication link here
 
 ## Contact: 
 abdid.yadata@gmail.com
