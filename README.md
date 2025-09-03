@@ -1,21 +1,48 @@
 ## <font color="chocolate">Ready-Tensor-Publication-Explorer-- RAG Chatbot </font>
 
-### Project Description
+### **Project Summary**
 
-### Concise Project Summary
+This project is a Retrieval-Augmented Generation (RAG) assistant designed to answer questions based on a specific publication. It uses embeddings, vector search, and a large language model (LLM) to provide precise, publication-grounded responses.
 
-### Project Overview
-I will add detailed project overview
+### **Project Overview**
 
-### Core Technologies 🛠️
+The RAG assistant processes the publication into document chunks, stores them in a vector database, and uses similarity search to retrieve the most relevant sections when a user asks a question. These chunks are then passed to the LLM, which generates context-aware answers.
 
-    LangChain: For the core pipeline.
-    Gemini API: For the LLM and embeddings (requires an API key).
-    FAISS: For local vector storage (lightweight and fast).
-    Python's input(): For a basic Command Line Interface (CLI).
-    Python's logging: For basic logging.
-    ConversationBufferMemory: For session-based memory (optional extension).
+* Ensures responses are accurate and grounded in the provided publication.
+* Refuses to hallucinate or provide out-of-scope information.
+* Runs locally via Python and command-line interface (CLI).
+* Supports future extension to a web interface.
 
+
+### **Project Description**
+
+This project implements a Retrieval-Augmented Generation (RAG) pipeline tailored for answering questions from a specific publication. Unlike general-purpose chatbots, this assistant is restricted to the knowledge contained within the provided document, ensuring precise and trustworthy responses.
+
+Key aspects of the system include:
+
+* **Document Ingestion**: Splits the publication into manageable text chunks and stores them in a vector database.
+* **Vector Search**: Uses similarity-based retrieval to find the most relevant document sections for each query.
+* **LLM Integration**: Leverages a large language model to generate coherent answers grounded in the retrieved content.
+* **Guardrails**: Prevents hallucination, out-of-scope answers, or unsafe instructions.
+* **Local Deployment**: Designed to run locally using Python, ensuring accessibility without cloud dependency.
+
+---
+
+👉 Do you want me to also **connect this Project Description with your "Tech Stack ⚙️" section**, so it naturally flows in your README?
+
+---
+
+### Technologies Used 🏗️
+
+* **LangChain**: For building the RAG pipeline (retriever + LLM + chain).
+* **Groq / Gemini API**: For the chat LLM (configurable via `.env`).
+* **HuggingFace Embeddings** (`all-MiniLM-L6-v2`): For generating vector representations of document chunks.
+* **Chroma**: For persistent local vector storage and similarity search.
+* **RecursiveCharacterTextSplitter**: For splitting long documents into retrievable chunks.
+* **Pydantic Settings**: For managing configuration (`chunk_size`, `top_k`, provider, etc.).
+* **dotenv**: For loading environment variables (API keys, configs).
+* **Gradio**: For the web-based UI chatbot.
+* **Python's input()**: For a lightweight Command Line Interface (CLI).
 
 ### 📸 ⛶ Screenshot
 ![Chatbot demo answering questions](image.png)
@@ -23,20 +50,7 @@ I will add detailed project overview
 
 ### Video demo
 
-
-### Features
-- 
-- 
--
--
--
--
--
-
-
-
 ---
-
 
 ### Repository Structure
 ```
@@ -72,8 +86,6 @@ RAG_Chatbot_Project/
 ```
 ---
 
-
-
 ### 🚀 Getting Started
 
 Welcome! This guide will help you set up and run your project with ease.
@@ -81,7 +93,7 @@ Welcome! This guide will help you set up and run your project with ease.
 
 Before you begin, make sure you have the following:
 
-    ✅ Python 3.11 or higher installed
+    ✅ Python 3.11+
 
     🔑 Groq API Key (required)
 
@@ -90,16 +102,16 @@ Before you begin, make sure you have the following:
 #### 🛠️Setup and Installation Guide
 **Step 1: Create and Activate a Virtual Environment**
 
-Open your command line interface (Command Prompt on Windows or Terminal on macOS/Linux), navigate to the root directory of your project directory, and run the following commands:
-```env
-    # Windows
-    python -m venv venv
-    venv\Scripts\activate
+Open your command line interface (Command Prompt on Windows or Terminal on macOS/Linux), navigate to the root directory and run the following commands:
+
 ```
-```env
-    # macOS / Linux
-    python3 -m venv venv
-    source venv/bin/activate
+# Windows
+python -m venv venv
+venv\Scripts\activate
+
+# macOS / Linux
+python3 -m venv venv
+source venv/bin/activate
 ```
 <!-- If you're working on desktop, your command line should now look like: -->
 Once activated, your command line prompt should look like:
@@ -108,11 +120,11 @@ Once activated, your command line prompt should look like:
     (venv) ~/Desktop/RAG Chatbot_Project$            # macOS / Linux
 ```
 
-
 **Step 2. Install Dependencies**
+
 Once your virtual environment is activated, you can install all required packages using a `requirements.txt` file.
 
-🔹Create a file named `requirements.txt` inside the root with this content:
+🔹Create a file named `requirements.txt` inside the root directory with this content:
 ```txt
 # Core
 langchain>=0.2.12
@@ -149,6 +161,17 @@ GROQ_API_KEY=your_groq_api_key_here
 OPENAI_API_KEY=your_openai_api_key_here  # Optional
 ```
 >💡Replace your_groq_api_key_here and your_openai_api_key_here with your actual API keys. These keys are used to authenticate requests to Groq and OpenAI services.
+
+**🚫 Step 4: Ignore the `.env` File**
+
+**🔹 Add `.env` to `.gitignore`**
+
+Open (or create) a `.gitignore` file in the root directory and add:
+
+```gitignore
+.env
+```
+> ✅ This tells Git to ignore the `.env` file so it won’t be tracked or pushed to GitHub.
 
 
 **3. documents/ Folder and Sample Documents**<br/>
