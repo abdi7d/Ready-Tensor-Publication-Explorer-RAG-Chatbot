@@ -1,4 +1,4 @@
-# Ready-Tensor-Publication-Explorer — RAG Chatbot 📘🤖
+## Ready-Tensor-Publication-Explorer — RAG Chatbot 📘🤖
 
 ---
 ### Project Summary
