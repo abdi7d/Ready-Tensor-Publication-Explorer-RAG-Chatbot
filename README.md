@@ -1,12 +1,14 @@
 ## Ready-Tensor-Publication-Explorer — RAG Chatbot 📘🤖
 
 ---
-### Project Summary
+### 📝 Project Summary
+
 
 This project is a Retrieval-Augmented Generation (RAG) assistant designed to answer questions based on a specific publication. It uses embeddings, vector search, and a large language model (LLM) to provide precise, publication-grounded responses.
 
 ---
-### Project Overview
+### 🔎 Project Overview
+
 
 The RAG assistant processes the publication into document chunks, stores them in a vector database, and uses similarity search to retrieve the most relevant sections when a user asks a question. These chunks are then passed to the LLM, which generates context-aware answers.
 
@@ -16,7 +18,7 @@ The RAG assistant processes the publication into document chunks, stores them in
 * Supports future extension to a web interface.
 
 ---
-### Project Description
+### 📖 Project Description
 
 This project implements a Retrieval-Augmented Generation (RAG) pipeline tailored for answering questions from a specific publication. Unlike general-purpose chatbots, this assistant is restricted to the knowledge contained within the provided document, ensuring precise and trustworthy responses.
 
@@ -30,7 +32,7 @@ Key aspects of the system include:
 
 ---
 
-### Tech Stack /Technologies Used ⚙️
+### ⚙️ Tech Stack /Technologies Used 
 
 * **LangChain**: For building the RAG pipeline (retriever + LLM + chain).
 * **Groq / Gemini API**: For the chat LLM (configurable via `.env`).
