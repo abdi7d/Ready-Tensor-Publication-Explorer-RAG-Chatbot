@@ -5,6 +5,7 @@
 
 Repository Structure
 
+```
 Ready-Tensor-Publication-Explorer--Chatbot/
  |-- data/
  |     |--raw/
@@ -14,7 +15,7 @@ Ready-Tensor-Publication-Explorer--Chatbot/
  |
  |
  |
- 
+``` 
 
 ## Repository Structure
 ---
