@@ -19,8 +19,7 @@ def build_and_launch(persist_directory: str = "VectorStore", demo_port: int = 78
 
         # --- Simple small talk handling ---
         lower_msg = message.strip().lower()
-        if lower_msg in ["hi", "hello", "hey", "how are you", "what's up","how are you doing?"]:
-            # reply = "Hello 👋 How can I help you with the documents?"
+        if lower_msg in ["hi", "hello", "hey", "how are you?", "what's up","how are you doing?"]:
             reply = "Hello 👋 How can I help you with Ready Tensor Publications?"
             chat_history.append({"role": "user", "content": message})
             chat_history.append({"role": "assistant", "content": reply})
@@ -79,7 +78,7 @@ def build_and_launch(persist_directory: str = "VectorStore", demo_port: int = 78
             with gr.Column(scale=2):
                 chatbot = gr.Chatbot(
                     type="messages",
-                    label="Conversation",
+                    label="Chatbot",
                     avatar_images=(
                         "https://cdn-icons-png.flaticon.com/512/2922/2922510.png",
                         "https://cdn-icons-png.flaticon.com/512/4712/4712027.png",
@@ -89,7 +88,7 @@ def build_and_launch(persist_directory: str = "VectorStore", demo_port: int = 78
 
                 txt = gr.Textbox(
                     label="Ask a question",
-                    placeholder="Type your question here..."
+                    placeholder="Ask me anything about the Ready Tensor Publications here..."
                 )
                 submit = gr.Button("Send")
 
