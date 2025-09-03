@@ -4,9 +4,7 @@ from pydantic import Field
 
 class Settings(BaseSettings):
     provider: str = Field("groq", description="groq|gemini")
-    # model_name: str = Field("llama3-13b-8192")
     model_name: str = Field("llama-3.1-8b-instant")
-    # embed_model: str = Field("sentence-transformers/all-MiniLM-L6-v2")
     embed_model: str = Field("all-MiniLM-L6-v2")
     vectorstore: str = Field("chroma", description="chroma|faiss")
     chunk_size: int = Field(1000)   # ~200 words per chunk
