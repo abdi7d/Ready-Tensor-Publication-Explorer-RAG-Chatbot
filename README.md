@@ -16,7 +16,9 @@ Ready-Tensor-Publication-Explorer--Chatbot/
  |
  
 
-
+## Repository Structure
+---
+```
 rag_assistant/
  ├─ data/
  │   ├─ project_1_publication.json
@@ -45,3 +47,5 @@ rag_assistant/
  ├─ .env_example
  ├─ README.md
  ├─ requirements.txt
+```
+---
