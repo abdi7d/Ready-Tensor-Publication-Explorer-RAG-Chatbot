@@ -1,6 +1,5 @@
 # src/embeddings.py
 from .config import settings
-# from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain_huggingface import HuggingFaceEmbeddings
 
 try:
