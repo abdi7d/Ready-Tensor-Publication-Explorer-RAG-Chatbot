@@ -1,24 +1,20 @@
-"# Ready-Tensor-Publication-Explorer--Chatbot" 
+## <font color="chocolate">Ready-Tensor-Publication-Explorer-- RAG Chatbot </font>
 
 
 
 
-Repository Structure
+### ⚙️ Configuration
 
+Create a `.env` file in the root with the following variables:
+
+```env
+GROQ_API_KEY=your_groq_api_key
+OPENAI_API_KEY=your_openai_api_key
 ```
-Ready-Tensor-Publication-Explorer--Chatbot/
- |-- data/
- |     |--raw/
- |     |--project_1_publication.json
- |
- |
- |
- |
- |
-``` 
-
-## Repository Structure
 ---
+
+
+### Repository Structure
 ```
 rag_assistant/
  ├─ data/
@@ -50,3 +46,15 @@ rag_assistant/
  ├─ requirements.txt
 ```
 ---
+
+```Python
+// This is a code block
+const a = 1;
+```
+
+
+## Reference
+https://app.readytensor.ai/publications/create/ywfeDHNiFx7n/documentation
+
+## Contact: 
+abdid.yadata@gmail.com
