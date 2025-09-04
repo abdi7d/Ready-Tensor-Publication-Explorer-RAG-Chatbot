@@ -7,7 +7,6 @@ from langchain.schema import Document
 from langchain_chroma import Chroma
 
 
-
 # choose imports lazily to avoid import errors
 try:
     from langchain_chroma import Chroma
