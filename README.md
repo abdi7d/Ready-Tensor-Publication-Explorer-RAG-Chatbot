@@ -176,7 +176,7 @@ Licensed under the [MIT license](LICENSE).
 
 ### 📚 Reference
 
-👉 \[My publication link here]
+👉 \[My publication link here.]
 
 ---
 
