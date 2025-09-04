@@ -174,7 +174,6 @@ Licensed under the [MIT license](LICENSE).
 
 ---
 
-
 ### 📚 References
 
 1. **Ready Tensor** – Agentic AI Developer Certification: [https://app.readytensor.ai/certifications](https://app.readytensor.ai/certifications)
