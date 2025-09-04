@@ -50,7 +50,7 @@ def build_and_launch(persist_directory: str = "VectorStore", demo_port: int = 78
 
     # Document preview
     doc_preview = ""
-    p = Path("data/project_1_publication.json")
+    p = Path("data/project_1_publications.json")
     if p.exists():
         try:
             doc_preview = p.read_text(encoding="utf-8")
