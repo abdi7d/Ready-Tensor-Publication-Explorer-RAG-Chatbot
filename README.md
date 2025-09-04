@@ -45,8 +45,7 @@ Key aspects of the system include:
 * **Python's input()**: For a lightweight Command Line Interface (CLI).
 
 ### 📸 ⛶ Screenshot
-![Chatbot demo answering questions](image.png)
-<!-- ![Chatbot demo answering questions](assets/chatbot_demo.png) -->
+![Chatbot demo answering questions](assets/chatbot_demo.png)
 <p align="center"><i><code>Chatbot demo answering questions</code></i></p>
 
 
