@@ -174,9 +174,15 @@ Licensed under the [MIT license](LICENSE).
 
 ---
 
-### 📚 Reference
 
-👉 \[My publication link here.]
+### 📚 References
+
+1. **Ready Tensor** – Agentic AI Developer Certification: [https://app.readytensor.ai/certifications](https://app.readytensor.ai/certifications)
+2. **LangChain Documentation** – Building RAG pipelines: [https://www.langchain.com/docs/](https://www.langchain.com/docs/)
+3. **HuggingFace Embeddings** – `all-MiniLM-L6-v2`: [https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2)
+4. **Chroma Vector Database** – [https://www.trychroma.com/](https://www.trychroma.com/)
+5. **Groq LLaMA / Gemini API** – LLM provider used for chatbot responses.
+6. **Ready Tensor Publications** – The dataset/publications used in this project: [https://drive.google.com/drive/folders/1HAqLXL2W-sh8hqoBb1iSauJ_0wZVRxB9](https://drive.google.com/drive/folders/1HAqLXL2W-sh8hqoBb1iSauJ_0wZVRxB9)
 
 ---
 
