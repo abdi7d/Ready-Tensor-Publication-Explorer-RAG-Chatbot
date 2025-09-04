@@ -51,7 +51,7 @@ Key aspects of the system include:
 
 
 ### 📺 Video demo
-[Watch Demo Video](https://youtu.be/liEcCwXU5cs)
+[Watch Demo Video](https://www.youtube.com/watch?v=liEcCwXU5cs)
 
 ---
 ### Repository Structure
