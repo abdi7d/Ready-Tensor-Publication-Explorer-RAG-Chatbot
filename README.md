@@ -78,7 +78,6 @@ RAG_Chatbot_Project/
  │       └─ gradio_app.py
  ├─ ingest.py
  ├─ app.py                  # thin launcher for Gradio UI
- └─ tests/                  # add later (pytest)
  ├─ .gitignore              
  ├─ .env_example
  ├─ README.md
