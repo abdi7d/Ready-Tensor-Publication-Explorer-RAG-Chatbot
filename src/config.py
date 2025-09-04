@@ -9,7 +9,7 @@ class Settings(BaseSettings):
     vectorstore: str = Field("chroma", description="chroma|faiss")
     chunk_size: int = Field(1000)   # ~200 words per chunk
     chunk_overlap: int = Field(200) # Overlap to preserve context
-    top_k: int = Field(10)
+    top_k: int = Field(5)
     temperature: float = Field(0.5)
 
     GROQ_API_KEY: str | None = None
