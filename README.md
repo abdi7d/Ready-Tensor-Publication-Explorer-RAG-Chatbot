@@ -50,8 +50,8 @@ Key aspects of the system include:
 <p align="center"><i><code>Chatbot demo answering questions</code></i></p>
 
 
-### 📺  Video demo ▶️
-[Watch Demo Video](https://www.youtube.com/watch?v=liEcCwXU5cs)
+### ▶️ Video demo 
+[📺 Watch Demo Video](https://www.youtube.com/watch?v=liEcCwXU5cs)
 
 ---
 ### Repository Structure
