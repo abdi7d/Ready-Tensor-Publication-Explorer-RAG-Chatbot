@@ -1,8 +1,5 @@
 ## Ready-Tensor-Publication-Explorer — RAG Chatbot 📘🤖
 
-### GitHub Stats
-![Abdi's GitHub Stats](https://github-readme-stats.vercel.app/api?username=abdi7d&show_icons=true&count_private=true&hide=prs,issues&theme=radical)
-
 ---
 ### 📝 Project Summary
 
