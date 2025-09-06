@@ -45,14 +45,14 @@ Key aspects of the system include:
 * **Gradio**: For the web-based UI chatbot.
 * **Python's input()**: For a lightweight Command Line Interface (CLI).
 
-### 📸 ⛶ Screenshot
-[Click here to view the full screenshot](assets/chatbot_demo.png)
+### ⛶ Screenshot
+[Click here to view the full screenshot 📸](assets/chatbot_demo.png)
 ![Chatbot demo answering questions](assets/chatbot_demo.png)
 <p align="center"><i><code>Chatbot demo answering questions</code></i></p>
 
 
 ### ▶️ Video demo 
-[📺 Watch Demo Video](https://www.youtube.com/watch?v=liEcCwXU5cs)
+📺[Watch Demo Video](https://www.youtube.com/watch?v=liEcCwXU5cs)
 
 ---
 ### Repository Structure
