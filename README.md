@@ -1,5 +1,5 @@
 ## Ready-Tensor-Publication-Explorer — RAG Chatbot 📘🤖
-<img src="assets/chatbot.gif" alt="Motivational GIF" width="2000" height="300" />
+<img src="assets/chatbot.gif" alt="Motivational GIF" width="2000" height="400" />
 
 ---
 ### 📝 Project Summary
